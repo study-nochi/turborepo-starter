@@ -1,0 +1,19 @@
+{
+  "extends": "tsconfig/nextjs.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/pages/*": ["pages/*"],
+      "@/business/*": ["business/*"],
+      "@/containers/*": ["containers/*"],
+      "@/components/*": ["components/*"],
+      "@/constants/*": ["constants/*"],
+      "@/styles/*": ["styles/*"],
+      "@/utils/*": ["utils/*"],
+      "@/types/*": ["types/*"],
+      "@/data/*": ["data/*"],
+      "@/services/*": ["services/*"],
+      "@/hooks/*": ["hooks/*"]
+    }
+  }
+}
